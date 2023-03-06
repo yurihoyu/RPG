@@ -10,8 +10,10 @@ public class Oak extends Monster {
 
 		// ヒットポイント(乱数)
 		int hp = Dice.get(170, 230);
+		this.setHp(hp);
 		//攻撃力(乱数)
 		int damage  = Dice.get(9, 15);
+		this.setOffensive(damage);
 	}
 
 }

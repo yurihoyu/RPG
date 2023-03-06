@@ -10,11 +10,13 @@ public class Slime extends Monster {
 
 		// ヒットポイント(乱数)
 		int hp = Dice.get(70, 130);
+		this.setHp(hp);
 		//攻撃力(乱数)
 		int damage  = Dice.get(5, 11);
+		this.setOffensive(damage);
 	}
-	
-	public void choiceHuman() {}
+
+
 
 }
 
